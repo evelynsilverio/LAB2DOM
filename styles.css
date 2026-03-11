@@ -22,3 +22,25 @@ body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial;background:var(--bg);c
 .badge{position:absolute;left:8px;top:8px;border:1px solid var(--line);background:rgba(18,27,46,.85);padding:4px 8px;border-radius:999px;font-size:12px}
 .bottom{padding:14px 16px;border-top:1px solid var(--line)}
 @media (max-width: 900px){.layout{grid-template-columns:1fr}}
+
+.controls{
+    position: absolute;
+    bottom: 3px;
+    left: 570px;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 120px;
+}
+
+.controls button{
+    border: 1px solid var(--text);
+    background: rgba(18,27,46,0.85);
+    color: var(--text);
+    padding: 7px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.frame img.fade-out{
+    opacity: 0;
+}
